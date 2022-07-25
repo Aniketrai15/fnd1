@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e4f1fe;
+}
+
+#navleft {
+    padding: 0px 25px;
+}
+#navleft:hover {
+    background-color: #8dc6ff;
+    
+}
+
+#navright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navitems {
+    padding: 17px 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.navitems:hover {
+    background-color: #8dc6ff;
+    border-bottom: 2px solid black;
+    
+}
+.navitems a{
+    text-decoration: none;
+}
+
+
+#intro {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+#introdivleft h1 {
+    padding: 20px 100px;
+}
+
+#introdivleft p {
+    padding: 0px 50px 0px 50px;
+}
+
+#vector1 {
+    height: 300px;
+    width: 300px;
+    padding: 0px 100px 0px 60px;
+}
+
+#skillsheading  h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#skillstable {
+    margin: auto;
+    text-align: center;
+}
+
+#skillstable tr td {
+    margin-top: 30px;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+
+#skillstable td i {
+    font-size: 100px;
+}
+footer {
+    margin-top: 80px;
+    background-color: #34495e;
+    color: white;
+    display: flex;
+}
+.footercontainerleft {
+    margin-top: 40px;
+}    
+.footeritems {
+    padding: 5px 20px;
+    padding-left: 100px;
+    padding-right: 60px;
+}
+
+.footercontainerright {
+    padding: 20px 60px;
+
+}

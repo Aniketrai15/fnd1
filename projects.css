@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+    background-color: #e4f1fe;
+}
+
+.projectscontainer {
+    margin-top: 50px;
+}
+.projectscontainer h2 {
+    text-align: center;
+}
